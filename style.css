@@ -102,27 +102,42 @@ footer {
 
 /* Navigation bar styles */
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #858080de;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    z-index: 100;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    display: inline;
-    margin: 0 20px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-    color: #ccc;
+    background-color: #555;
+}
+
+#experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
