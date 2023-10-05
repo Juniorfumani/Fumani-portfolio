@@ -137,6 +137,12 @@ nav a:hover {
     background-color: #555;
 }
 
+/* Add top margin to content below the navbar */
+header {
+    margin-top: 80px;
+    /* Adjust the value to your preference */
+}
+
 #experience ul {
     list-style-type: disc;
     margin-left: 20px;
